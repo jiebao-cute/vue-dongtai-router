@@ -6,7 +6,6 @@ router.post('/user_router_auth', async (ctx, next) => {
   if (uid) {
     let authRouterInfo = []
     const userInfo = user.filter(user => user.id == uid)[0]
-    console.log(userInfo)
     userInfo.auth.map((rid) => {
       routers.map((router) => {
         if (router.id === rid) {

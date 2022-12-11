@@ -47,7 +47,7 @@ module.exports = [
     },
     {
         id: 8,
-        pid: 2,
+        pid: 6,
         path: 'add',
         name: 'StudentAdd',
         link: '/student/add',
